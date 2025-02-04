@@ -1,0 +1,50 @@
+
+* {
+    outline: dotted red;
+    line-height: 1.5;
+}
+
+.headers {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    font-size: 24px;
+}
+
+.lasagna {
+    color: white;
+    background-color: black;
+    width:190px;
+}
+
+.pizza {
+    width: 160px;
+    color: red;
+    background-color: yellow;
+    margin-left:auto;
+}
+
+.burger{ 
+    width: 170px;
+    color:blue;
+    background-color: green;
+    margin: 0 auto;
+}
+
+.lasagna-img {
+    height: auto;
+    width: 300px;
+}
+
+.burger-img {
+    display: block;
+    height: auto;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.pizza-img {
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin-left:auto;
+}
