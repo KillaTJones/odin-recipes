@@ -14,7 +14,7 @@ h1 {
 }
 
 ul {
-    margin: auto 250px;
+    
     outline: solid black;
     background-color: white;
     
@@ -24,6 +24,10 @@ h2 {
 
     font-weight: bold;
     font-size: 20px;
+}
+
+button {
+    background-color: cornsilk;
 }
 
 button:hover{
@@ -41,11 +45,15 @@ p {
     background-color: cornsilk;
     outline: solid black;
     margin: 10px auto;
+    display:flex;
+    flex-direction:column;
 }
 
 .lasagna-img {
+    align-items: center;
     height: auto;
     width: 500px;
+    margin:auto;
 }
 
 .burger-img {
@@ -58,4 +66,5 @@ p {
 .pizza-img {
     height: 375px;
     width: 500px;
+    margin:auto;
 }
